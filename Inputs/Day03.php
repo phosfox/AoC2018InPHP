@@ -18,6 +18,15 @@ class Day03
         $this->solvePart1();
     }
 
+    public function printFabric(): void
+    {
+        foreach ($this->fabric as $row) {
+            foreach ($row as $ele) {
+                printf("%d ", $ele);
+            }
+            printf("\n");
+        }
+    }
 
     public function setFabric(): void
     {
@@ -56,15 +65,26 @@ class Day03
             $yPlusH = $y + $h;
             printf("ID:%d X:%d Y:%d WIDTH:%d Height%d x+w:%d y+h:%d\n", $claim->getId(), $x, $y, $w, $h, $xPlusW, $yPlusH);
 
-            for (; $x <= $xPlusW; $x++) {
-                for (; $y <= $yPlusH; $y++) {
+            for ($i = 0; $i < $w; $i++) {
+                for ($k = 0; $k < $h; $k++) {
+                    if ($this->fabric[$y + $k][$x + $i] === 0) {
+                        $this->fabric[$y + $k][$x + $i] = $claim->getId();
+                    } else {
+                        $this->fabric[$y + $k][$x + $i] = -1;
+                    }
+                }
+            }
+
+
+            /*for (; $x < $xPlusW; $x++) {
+                for (; $y < $yPlusH; $y++) {
                     if ($this->fabric[$x][$y] === 0) {
                         $this->fabric[$x][$y] = $claim->getId();
                     } else {
                         $this->fabric[$x][$y] = -1;
                     }
                 }
-            }
+            }*/
         }
 
         $claimedInches = 0;
@@ -75,8 +95,8 @@ class Day03
                 }
             }
         }
-        print_r($claimedInches);
-
+        printf("%d\n", $claimedInches);
+        //$this->printFabric();
     }
 
 }

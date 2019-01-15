@@ -44,14 +44,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="4210" />
-          <entry key="txt" value="158" />
+          <entry key="php" value="4448" />
+          <entry key="txt" value="177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4210" />
-          <entry key="PLAIN_TEXT" value="158" />
+          <entry key="PHP" value="4448" />
+          <entry key="PLAIN_TEXT" value="177" />
         </counts>
       </usages-collector>
     </session>
@@ -82,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Inputs/Day03.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state relative-caret-position="-309">
+              <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -249,7 +249,7 @@
       <workItem from="1547307081680" duration="4366000" />
       <workItem from="1547567940388" duration="115000" />
       <workItem from="1547568070583" duration="6111000" />
-      <workItem from="1547576433567" duration="494000" />
+      <workItem from="1547576433567" duration="2086000" />
     </task>
     <task id="LOCAL-00001" summary="Solved day2 part 1">
       <created>1547309930728</created>
@@ -286,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547574312048</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed parsing error">
+      <created>1547577037975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547577037975</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17711000" />
+    <option name="totallyTimeSpent" value="19303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -310,7 +317,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.45379025" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.37383178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,7 +336,8 @@
     <MESSAGE value="Refactored anhand PHP Inspector" />
     <MESSAGE value="Started day3, parsing input as Claims" />
     <MESSAGE value="not the right answer yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="not the right answer yet" />
+    <MESSAGE value="fixed parsing error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed parsing error" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Inputs/Day1.txt">
@@ -360,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inputs/Day3_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Claim.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -381,10 +382,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Inputs/Day3_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Inputs/Day03.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        <state relative-caret-position="-309">
+          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
         </state>
       </provider>
     </entry>
