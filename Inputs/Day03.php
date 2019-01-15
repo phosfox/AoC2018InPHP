@@ -10,14 +10,25 @@ require_once "C:\Users\Constantin\PhpstormProjects\AdventOfCode2018\Claim.php";
 class Day03
 {
     private $claims = array();
+    private $fabric = array(array());
+    private $width = 1000;
+
     public function main(): void
     {
-        print_r($this->claims);
+        $this->solvePart1();
     }
+
+
+    public function setFabric(): void
+    {
+        $this->fabric = array_fill(0, $this->width, array_fill(0, $this->width, 0));
+    }
+
 
     public function __construct()
     {
         $this->parseInput();
+        $this->setFabric();
     }
 
     private function parseInput(): void
@@ -27,14 +38,47 @@ class Day03
             while (($line = fgets($fh)) !== false) {
                 //array_push($this->input, $line);
                 preg_match("/#(\d+).*(\d+),(\d+).*(\d+)x(\d+)/", $line, $words);
-                $claim = new Claim($words[1],$words[4],$words[5],$words[2],$words[3]);
+                $claim = new Claim($words[1], $words[4], $words[5], $words[2], $words[3]);
                 $this->claims[] = $claim;
             }
             fclose($fh);
         }
     }
 
+    private function solvePart1(): void
+    {
+        foreach ($this->claims as $claim) {
+            $x = $claim->getX();
+            $y = $claim->getY();
+            $w = $claim->getWidth();
+            $h = $claim->getHeight();
+            $xPlusW = $x + $w;
+            $yPlusH = $y + $h;
+
+            for (; $x <= $xPlusW; $x++) {
+                for (; $y <= $yPlusH; $y++) {
+                    if ($this->fabric[$x][$y] === 0) {
+                        $this->fabric[$x][$y] = $claim->getId();
+                    } else {
+                        $this->fabric[$x][$y] = -1;
+                    }
+                }
+            }
+        }
+
+        $claimedInches = 0;
+        foreach ($this->fabric as $row) {
+            foreach ($row as $e) {
+                if ($e === -1) {
+                    $claimedInches++;
+                }
+            }
+        }
+        print_r($claimedInches);
+
+    }
 
 }
+
 $day = new Day03();
 $day->main();

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff1a8e8-04ec-401b-b45f-a1d3672470aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Claim.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/Day03.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/Day3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/Day3_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/Day03.php" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/Day03.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +43,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3324" />
-          <entry key="txt" value="87" />
+          <entry key="php" value="4050" />
+          <entry key="txt" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3324" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="PHP" value="4050" />
+          <entry key="PLAIN_TEXT" value="127" />
         </counts>
       </usages-collector>
     </session>
@@ -81,16 +78,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Inputs/Day03.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="415">
+              <caret line="69" column="52" lean-forward="true" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Inputs/Day3_test.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
@@ -102,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Claim.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="-136">
               <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
@@ -111,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Inputs/Day3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
+            <state relative-caret-position="23470">
               <caret line="1260" column="22" lean-forward="true" selection-start-line="1260" selection-start-column="22" selection-end-line="1260" selection-end-column="22" />
             </state>
           </provider>
@@ -140,9 +137,9 @@
         <option value="$PROJECT_DIR$/Day02.php" />
         <option value="$PROJECT_DIR$/Inputs/Day3.txt" />
         <option value="$PROJECT_DIR$/Inputs/Claim.php" />
-        <option value="$PROJECT_DIR$/Inputs/Day03.php" />
         <option value="$PROJECT_DIR$/Claim.php" />
         <option value="$PROJECT_DIR$/Inputs/Day3_test.txt" />
+        <option value="$PROJECT_DIR$/Inputs/Day03.php" />
       </list>
     </option>
   </component>
@@ -158,6 +155,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="139" />
+    <option name="y" value="-1" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -248,7 +247,7 @@
       <workItem from="1546713168692" duration="3356000" />
       <workItem from="1547307081680" duration="4366000" />
       <workItem from="1547567940388" duration="115000" />
-      <workItem from="1547568070583" duration="3866000" />
+      <workItem from="1547568070583" duration="5951000" />
     </task>
     <task id="LOCAL-00001" summary="Solved day2 part 1">
       <created>1547309930728</created>
@@ -271,11 +270,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547568920897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started day3, parsing input as Claims">
+      <created>1547572291867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547572291867</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14972000" />
+    <option name="totallyTimeSpent" value="17057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -295,7 +301,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.3811007" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.45379025" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,7 +318,8 @@
     <MESSAGE value="Solved day2 part 1" />
     <MESSAGE value="Solved day2 part2" />
     <MESSAGE value="Refactored anhand PHP Inspector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored anhand PHP Inspector" />
+    <MESSAGE value="Started day3, parsing input as Claims" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started day3, parsing input as Claims" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Inputs/Day1.txt">
@@ -326,13 +333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
           <caret line="249" column="26" selection-start-line="249" selection-start-column="26" selection-end-line="249" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inputs/Day3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="1260" column="22" lean-forward="true" selection-start-line="1260" selection-start-column="22" selection-end-line="1260" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -350,24 +350,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Inputs/Day3_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Claim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="-136">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inputs/Day3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23470">
+          <caret line="1260" column="22" lean-forward="true" selection-start-line="1260" selection-start-column="22" selection-end-line="1260" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Inputs/Day03.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inputs/Day3_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="415">
+          <caret line="69" column="52" lean-forward="true" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
         </state>
       </provider>
     </entry>
