@@ -37,7 +37,7 @@ class Day03
         if ($fh = fopen($filename, 'rb')) {
             while (($line = fgets($fh)) !== false) {
                 //array_push($this->input, $line);
-                preg_match("/#(\d+).*(\d+),(\d+).*(\d+)x(\d+)/", $line, $words);
+                preg_match("/#(\d+)\s+@\s+(\d+),(\d+):\s+(\d+)x(\d+)/", $line, $words);
                 $claim = new Claim($words[1], $words[4], $words[5], $words[2], $words[3]);
                 $this->claims[] = $claim;
             }
@@ -54,6 +54,7 @@ class Day03
             $h = $claim->getHeight();
             $xPlusW = $x + $w;
             $yPlusH = $y + $h;
+            printf("ID:%d X:%d Y:%d WIDTH:%d Height%d x+w:%d y+h:%d\n", $claim->getId(), $x, $y, $w, $h, $xPlusW, $yPlusH);
 
             for (; $x <= $xPlusW; $x++) {
                 for (; $y <= $yPlusH; $y++) {
