@@ -109,5 +109,19 @@ class Claim
         $this->y = $y;
     }
 
+    public function overlapsWith(Claim $other): bool
+    {
+        $xOverlap = $this->valueInRange($this->x, $other->x, $other->x + $other->width) ||
+            $this->valueInRange($other->x, $this->x, $this->x + $this->width);
 
+    $yOverlap = $this->valueInRange($this->y, $other->y, $other->y + $other->height) ||
+        $this->valueInRange($other->y, $this->y, $this->y + $this->height);
+
+return $xOverlap && $yOverlap;
+    }
+
+    private function valueInRange($value, $min, $max): bool
+    {
+        return ($value >= $min) && ($value < $max);
+    }
 }

@@ -16,6 +16,7 @@ class Day03
     public function main(): void
     {
         $this->solvePart1();
+        $this->solvePart2();
     }
 
     public function printFabric(): void
@@ -61,9 +62,8 @@ class Day03
             $y = $claim->getY();
             $w = $claim->getWidth();
             $h = $claim->getHeight();
-            $xPlusW = $x + $w;
-            $yPlusH = $y + $h;
-            printf("ID:%d X:%d Y:%d WIDTH:%d Height%d x+w:%d y+h:%d\n", $claim->getId(), $x, $y, $w, $h, $xPlusW, $yPlusH);
+
+            //printf("ID:%d X:%d Y:%d WIDTH:%d Height%d\n", $claim->getId(), $x, $y, $w, $h);
 
             for ($i = 0; $i < $w; $i++) {
                 for ($k = 0; $k < $h; $k++) {
@@ -74,17 +74,6 @@ class Day03
                     }
                 }
             }
-
-
-            /*for (; $x < $xPlusW; $x++) {
-                for (; $y < $yPlusH; $y++) {
-                    if ($this->fabric[$x][$y] === 0) {
-                        $this->fabric[$x][$y] = $claim->getId();
-                    } else {
-                        $this->fabric[$x][$y] = -1;
-                    }
-                }
-            }*/
         }
 
         $claimedInches = 0;
@@ -99,6 +88,24 @@ class Day03
         //$this->printFabric();
     }
 
+    private function solvePart2(): void
+    {
+        foreach ($this->claims as $claim1) {
+            $unclaimed = true;
+            foreach ($this->claims as $claim2) {
+                if ($claim1->getId() === $claim2->getId()) {
+                    continue;
+                }
+                if ($claim1->overLapsWith($claim2)) {
+                    $unclaimed = false;
+                }
+            }
+            if ($unclaimed) {
+                printf("Unclaimed ID:%d\n", $claim1->getId());
+                return;
+            }
+        }
+    }
 }
 
 $day = new Day03();
