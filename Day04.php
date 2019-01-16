@@ -24,9 +24,9 @@ class Day04 implements IDay
         }
         sort($this->input);
 
+        $m0 = $m1 = 0;
+        $guard = 0;
         foreach ($this->input as $line) {
-            $m0 = $m1 = 0;
-            $guard = 0;
 
             preg_match("/:(\d+)/", $line, $matches);
             $minute = (int)$matches[1];
@@ -34,29 +34,27 @@ class Day04 implements IDay
             if (strpos($line, '#') !== false) {
                 preg_match("/#(\d+)/", $line, $matches);
                 $guard = (int)$matches[1];
-                printf("guard:%d\n", $guard);
+                //printf("guard:%d\n", $guard);
 
             } elseif (strpos($line, 'asleep') !== false) {
                 $m0 = $minute;
-                printf("m0:%d\n", $m0);
+                //printf("m0:%d\n", $m0);
 
 
             } elseif (strpos($line, 'wakes') !== false) {
                 $m1 = $minute;
-                printf("m1:%d\n", $m1);
+                //printf("m1:%d\n", $m1);
 
                 for ($m = $m0; $m < $m1; $m++) {
-                    print $guard;
-                    print "\n";
-                    if (array_key_exists($guard, $this->totals)) {
-                        $this->totals[$guard]++;
-                    } else {
+                    if (!isset($this->totals[$guard])) {
                         $this->totals[$guard] = 1;
-                    }
-                    if (array_key_exists($m, $this->minutes[$guard])) {
-                        $this->minutes[$guard][$m] += 1;
                     } else {
+                        $this->totals[$guard] += 1;
+                    }
+                    if (!isset($this->minutes[$guard][$m])) {
                         $this->minutes[$guard][$m] = 1;
+                    } else {
+                        $this->minutes[$guard][$m] += 1;
 
                     }
                 }
@@ -79,8 +77,25 @@ class Day04 implements IDay
 
     public function solvePart1(): void
     {
-        print_r($this->totals);
-        print_r($this->minutes);
+        $max = -1;
+        $guardID = 0;
+        $maxMin = -1;
+        $timeStamp = 0;
+
+        foreach ($this->totals as $key => $value) {
+            if ($value >= $max) {
+                $max = $value;
+                $guardID = $key;
+            }
+        }
+        foreach ($this->minutes[$guardID] as $key => $value) {
+            if ($value >= $maxMin) {
+                $maxMin = $value;
+                $timeStamp = $key;
+            }
+        }
+
+        printf("maxMin:%d * id:%d = %d\n", $timeStamp, $guardID, $timeStamp * $guardID);
     }
 
     public function solvePart2(): void
