@@ -23,7 +23,7 @@ class Day03
     {
         foreach ($this->fabric as $row) {
             foreach ($row as $ele) {
-                printf("%d ", $ele);
+                printf('%d ', $ele);
             }
             printf("\n");
         }
