@@ -15,14 +15,14 @@
     <session id="531702130">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -45,14 +45,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="6194" />
-          <entry key="txt" value="280" />
+          <entry key="php" value="6868" />
+          <entry key="txt" value="334" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="6194" />
-          <entry key="PLAIN_TEXT" value="280" />
+          <entry key="PHP" value="6868" />
+          <entry key="PLAIN_TEXT" value="334" />
         </counts>
       </usages-collector>
     </session>
@@ -61,34 +61,20 @@
     <favorites_list name="AdventOfCode2018" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7067363">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Day04.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="543">
-                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Inputs/Day4.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="992">
-                  <caret line="999" column="27" selection-start-line="999" selection-start-column="27" selection-end-line="999" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day04.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+              <folding>
+                <element signature="n#parseInput#0;n#Day04#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -229,7 +215,8 @@
       <workItem from="1547568070583" duration="6111000" />
       <workItem from="1547576433567" duration="3500000" />
       <workItem from="1547652887453" duration="6453000" />
-      <workItem from="1547665842259" duration="680000" />
+      <workItem from="1547665842259" duration="2976000" />
+      <workItem from="1547730628057" duration="972000" />
     </task>
     <task id="LOCAL-00001" summary="Solved day2 part 1">
       <created>1547309930728</created>
@@ -301,11 +288,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547660348762</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="wtf is up with phps scope?">
+      <created>1547666660097</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547666660097</updated>
+    </task>
+    <task id="LOCAL-00012" summary="solved Part1">
+      <created>1547669223418</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547669223418</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27850000" />
+    <option name="totallyTimeSpent" value="31118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,12 +321,12 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" weight="0.08208955" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.09594883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.058635395" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3997923" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3990338" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32917964" />
@@ -334,7 +335,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.24195223" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.42886811" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,7 +380,9 @@
     <MESSAGE value="solved part2" />
     <MESSAGE value="trying to fill totals and minutes" />
     <MESSAGE value="guard is not getting filled with a value?" />
-    <option name="LAST_COMMIT_MESSAGE" value="guard is not getting filled with a value?" />
+    <MESSAGE value="wtf is up with phps scope?" />
+    <MESSAGE value="solved Part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved Part1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Inputs/Day1.txt">
@@ -435,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="43" selection-start-line="43" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="n#setFabric#0;n#Day03#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -448,17 +448,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day04.php">
+    <entry file="file://$PROJECT_DIR$/Inputs/Day4.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="-16">
+          <caret line="955" column="4" selection-start-line="955" selection-start-column="4" selection-end-line="955" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inputs/Day4.txt">
+    <entry file="file://$PROJECT_DIR$/Day04.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="999" column="27" selection-start-line="999" selection-start-column="27" selection-end-line="999" selection-end-column="27" />
+        <state relative-caret-position="378">
+          <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+          <folding>
+            <element signature="n#parseInput#0;n#Day04#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

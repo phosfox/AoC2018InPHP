@@ -73,6 +73,7 @@ class Day04 implements IDay
     public function main(): void
     {
         $this->solvePart1();
+        $this->solvePart2();
     }
 
     public function solvePart1(): void
@@ -100,7 +101,21 @@ class Day04 implements IDay
 
     public function solvePart2(): void
     {
-        // TODO: Implement solvePart2() method.
+        $id = 0;
+        $asleepMin = 0;
+        $max = -1;
+
+        foreach ($this->minutes as $guardId => $guardMinutes) {
+            foreach ($guardMinutes as $minute => $timesAsleep) {
+                if ($timesAsleep >= $max) {
+                    $max = $timesAsleep;
+                    $id = $guardId;
+                    $asleepMin = $minute;
+                }
+            }
+        }
+        printf("id:%d * minute:%d = %d\n", $id, $asleepMin, $id * $asleepMin);
+
     }
 }
 
