@@ -9,7 +9,7 @@ require_once "IDay.php";
 
 class Day05 implements IDay
 {
-    private $input = "dabAcCaCBAcCcaDA";
+    private $input = "";
 
     public function parseInput(): void
     {
@@ -24,7 +24,7 @@ class Day05 implements IDay
 
     public function __construct()
     {
-        //$this->parseInput();
+        $this->parseInput();
     }
 
     public function main(): void
@@ -41,29 +41,23 @@ class Day05 implements IDay
     {
         $this->input = $this->reactString($this->input);
         echo $this->input . "\n";
+        printf("Lenght: %d", strlen($this->input));
     }
 
     private function reactString(string $input): String
     {
-        $reactedS = "";
         while (true) {
-            echo $input . "\n";
-            for ($i = 0; $i < strlen($input) - 1; $i+=2) {
+            $lenBefore = strlen($input);
+            for ($i = 0; $i < strlen($input) - 1; $i++) {
                 if ($this->canReact($input[$i], $input[$i + 1])) {
-                    printf("can collapse: %s %s\n", $input[$i], $input[$i + 1]);
                     $input = substr_replace($input, "", $i, 2);
                 }
-                echo $reactedS . "\n";
             }
-            echo "After loop " . $reactedS . "\n";
-            if (strlen($input) === strlen($reactedS)) {
+            if ($lenBefore === strlen($input)) {
                 break;
             }
-            $input = $reactedS;
-            $reactedS = "";
         }
-
-        return $reactedS;
+        return $input;
     }
 
     public function canReact($l, $r): bool
