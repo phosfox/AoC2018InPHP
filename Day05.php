@@ -46,20 +46,32 @@ class Day05 implements IDay
     private function reactString(string $input): String
     {
         $reactedS = "";
-        for ($i = 0, $iMax = strlen($input)-1; $i < $iMax; $i+=2) {
-            if ($this->canReact($input[$i], $input[$i + 1])) {
-                continue;
+        while (true) {
+            echo $input . "\n";
+            for ($i = 0; $i < strlen($input) - 1; $i+=2) {
+                if ($this->canReact($input[$i], $input[$i + 1])) {
+                    printf("can collapse: %s %s\n", $input[$i], $input[$i + 1]);
+                    $input = substr_replace($input, "", $i, 2);
+                }
+                echo $reactedS . "\n";
             }
-
-            $reactedS =  $reactedS . $input[$i] . $input[$i + 1];
+            echo "After loop " . $reactedS . "\n";
+            if (strlen($input) === strlen($reactedS)) {
+                break;
+            }
+            $input = $reactedS;
+            $reactedS = "";
         }
+
         return $reactedS;
     }
 
-    private function canReact($l, $r): bool
+    public function canReact($l, $r): bool
     {
-
-        return (int)$l + 22 == (int)$r || (int)$l - 22 == (int)$r;
+        if ($l === $r) {
+            return false;
+        }
+        return strtoupper($l) === $r or strtolower($l) === $r;
     }
 }
 

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff1a8e8-04ec-401b-b45f-a1d3672470aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day05.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/Day5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day05Test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/Day03.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day03.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day05.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day05.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,26 +34,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="8" />
+          <entry key="php" value="9" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="8" />
+          <entry key="PHP" value="9" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="7500" />
-          <entry key="txt" value="347" />
+          <entry key="php" value="8630" />
+          <entry key="txt" value="388" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="7500" />
-          <entry key="PLAIN_TEXT" value="347" />
+          <entry key="PHP" value="8630" />
+          <entry key="PLAIN_TEXT" value="388" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.test">
+        <counts>
+          <entry key="source.empty" value="1" />
+          <entry key="with.framework.PHPUnit.without.selected.methods" value="1" />
+          <entry key="without.target.element" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -76,8 +82,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day05.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="275">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day05Test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -118,6 +133,7 @@
         <option value="$PROJECT_DIR$/Inputs/IDay.php" />
         <option value="$PROJECT_DIR$/Day04.php" />
         <option value="$PROJECT_DIR$/Inputs/Day5.txt" />
+        <option value="$PROJECT_DIR$/Day05Test.php" />
         <option value="$PROJECT_DIR$/Day05.php" />
       </list>
     </option>
@@ -167,6 +183,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plugin&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -189,11 +206,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Day05.php">
-    <configuration name="Day01.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day01.php">
+  <component name="RunManager" selected="PHPUnit.Day05Test.testCanReact">
+    <configuration name="Day05Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Day05Test" file="$PROJECT_DIR$/Day05Test.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="Day02.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day02.php">
+    <configuration name="Day05Test.testCanReact" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Day05Test" file="$PROJECT_DIR$/Day05Test.php" method="testCanReact" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="Day03.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day03.php">
@@ -206,19 +225,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.Day01.php" />
-      <item itemvalue="PHP Script.Day02.php" />
       <item itemvalue="PHP Script.Day03.php" />
       <item itemvalue="PHP Script.Day04.php" />
       <item itemvalue="PHP Script.Day05.php" />
+      <item itemvalue="PHPUnit.Day05Test" />
+      <item itemvalue="PHPUnit.Day05Test.testCanReact" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.Day05Test.testCanReact" />
         <item itemvalue="PHP Script.Day05.php" />
+        <item itemvalue="PHPUnit.Day05Test" />
         <item itemvalue="PHP Script.Day04.php" />
         <item itemvalue="PHP Script.Day03.php" />
-        <item itemvalue="PHP Script.Day02.php" />
-        <item itemvalue="PHP Script.Day01.php" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +260,7 @@
       <workItem from="1547652887453" duration="6453000" />
       <workItem from="1547665842259" duration="2976000" />
       <workItem from="1547730628057" duration="1724000" />
-      <workItem from="1548171136652" duration="1915000" />
+      <workItem from="1548171136652" duration="8893000" />
     </task>
     <task id="LOCAL-00001" summary="Solved day2 part 1">
       <created>1547309930728</created>
@@ -334,11 +353,50 @@
       <option name="project" value="LOCAL" />
       <updated>1547731606157</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="starting day05 part1">
+      <created>1548173073627</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1548173073627</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 25m 27s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 27m 28s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 27m 55s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 33m 27s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 33m 30s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 52m 36s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 52m 50s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 53m 07s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 53m 51s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 54m 06s.xml">
+      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33785000" />
+    <option name="totallyTimeSpent" value="40763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,8 +409,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" weight="0.054371003" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" weight="0.09221748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.058635395" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -366,19 +425,19 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.20664589" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.5244029" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.08208955" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.09221748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.058635395" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3997923" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32917964" />
@@ -387,7 +446,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.24195223" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.37383178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -414,7 +473,8 @@
     <MESSAGE value="wtf is up with phps scope?" />
     <MESSAGE value="solved Part1" />
     <MESSAGE value="solved Part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved Part2" />
+    <MESSAGE value="starting day05 part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting day05 part1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Inputs/Day1.txt">
@@ -487,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inputs/Day5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50000" selection-start-column="50000" selection-end-column="50000" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day04.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -501,10 +554,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Inputs/Day5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50000" selection-start-column="50000" selection-end-column="50000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day05Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day05.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="275">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
