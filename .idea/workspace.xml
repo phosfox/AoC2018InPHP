@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff1a8e8-04ec-401b-b45f-a1d3672470aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/Day5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day04.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/Day03.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day03.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,44 +17,44 @@
     <session id="531702130">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="4" />
+          <entry key="PHP Class.type" value="5" />
           <entry key="PHP Interface.type" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="7" />
-          <entry key="txt" value="10" />
+          <entry key="php" value="8" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="7" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PHP" value="8" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="6868" />
-          <entry key="txt" value="334" />
+          <entry key="php" value="7500" />
+          <entry key="txt" value="347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="6868" />
-          <entry key="PLAIN_TEXT" value="334" />
+          <entry key="PHP" value="7500" />
+          <entry key="PLAIN_TEXT" value="347" />
         </counts>
       </usages-collector>
     </session>
@@ -61,15 +63,30 @@
     <favorites_list name="AdventOfCode2018" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day04.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-              <folding>
-                <element signature="n#parseInput#0;n#Day04#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day05.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Inputs/Day5.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="50000" selection-start-column="50000" selection-end-column="50000" />
             </state>
           </provider>
         </entry>
@@ -100,6 +117,8 @@
         <option value="$PROJECT_DIR$/Inputs/Day4.txt" />
         <option value="$PROJECT_DIR$/Inputs/IDay.php" />
         <option value="$PROJECT_DIR$/Day04.php" />
+        <option value="$PROJECT_DIR$/Inputs/Day5.txt" />
+        <option value="$PROJECT_DIR$/Day05.php" />
       </list>
     </option>
   </component>
@@ -126,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +162,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,17 +189,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Day04.php">
+  <component name="RunManager" selected="PHP Script.Day05.php">
     <configuration name="Day01.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day01.php">
       <method v="2" />
     </configuration>
     <configuration name="Day02.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day02.php">
       <method v="2" />
     </configuration>
-    <configuration name="Day03.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Inputs/Day03.php">
+    <configuration name="Day03.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day03.php">
       <method v="2" />
     </configuration>
     <configuration name="Day04.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day04.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Day05.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day05.php">
       <method v="2" />
     </configuration>
     <list>
@@ -188,9 +210,11 @@
       <item itemvalue="PHP Script.Day02.php" />
       <item itemvalue="PHP Script.Day03.php" />
       <item itemvalue="PHP Script.Day04.php" />
+      <item itemvalue="PHP Script.Day05.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.Day05.php" />
         <item itemvalue="PHP Script.Day04.php" />
         <item itemvalue="PHP Script.Day03.php" />
         <item itemvalue="PHP Script.Day02.php" />
@@ -216,7 +240,8 @@
       <workItem from="1547576433567" duration="3500000" />
       <workItem from="1547652887453" duration="6453000" />
       <workItem from="1547665842259" duration="2976000" />
-      <workItem from="1547730628057" duration="972000" />
+      <workItem from="1547730628057" duration="1724000" />
+      <workItem from="1548171136652" duration="1915000" />
     </task>
     <task id="LOCAL-00001" summary="Solved day2 part 1">
       <created>1547309930728</created>
@@ -302,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547669223418</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="solved Part2">
+      <created>1547731606157</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547731606157</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31118000" />
+    <option name="totallyTimeSpent" value="33785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,14 +351,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.09594883" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" weight="0.054371003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.058635395" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3990338" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32917964" />
@@ -335,7 +366,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.42886811" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.20664589" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,7 +413,8 @@
     <MESSAGE value="guard is not getting filled with a value?" />
     <MESSAGE value="wtf is up with phps scope?" />
     <MESSAGE value="solved Part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved Part1" />
+    <MESSAGE value="solved Part2" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved Part2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Inputs/Day1.txt">
@@ -434,7 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inputs/Day03.php">
+    <entry file="file://$PROJECT_DIR$/Day03.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="43" selection-start-line="43" selection-end-line="55" selection-end-column="5" />
@@ -455,13 +487,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Inputs/Day5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50000" selection-start-column="50000" selection-end-column="50000" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day04.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-          <folding>
-            <element signature="n#parseInput#0;n#Day04#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day05.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
         </state>
       </provider>
     </entry>
