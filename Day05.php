@@ -41,7 +41,7 @@ class Day05 implements IDay
     {
         $this->input = $this->reactString($this->input);
         echo $this->input . "\n";
-        printf("Lenght: %d", strlen($this->input));
+        printf("Length: %d", strlen($this->input));
     }
 
     private function reactString(string $input): String
