@@ -10,6 +10,7 @@ require_once "IDay.php";
 class Day05 implements IDay
 {
     private $input = "";
+    private $diffInputs = [];
 
     public function parseInput(): void
     {
@@ -30,18 +31,34 @@ class Day05 implements IDay
     public function main(): void
     {
         $this->solvePart1();
+        $this->solvePart2();
     }
 
     public function solvePart2(): void
     {
-        // TODO: Implement solvePart2() method.
+        $letters = 'abcdefghijklmnopqrstuvwxyz';
+        for ($i = 0, $iMax = strlen($letters); $i < $iMax; $i++) {
+            $this->diffInputs[] = $this->removeLetterFromString($letters[$i], $this->input);
+        }
+
+        $reactedStr = [];
+        foreach ($this->diffInputs as $str) {
+            $reactedStr[] = $this->reactString($str);
+        }
+
+        $minLen = PHP_INT_MAX;
+        foreach ($reactedStr as $s) {
+            if (strlen($s) <= $minLen) {
+                $minLen = strlen($s);
+            }
+        }
+        printf('Shortest polymer length: %d' . PHP_EOL, $minLen);
     }
 
     public function solvePart1(): void
     {
         $this->input = $this->reactString($this->input);
-        echo $this->input . "\n";
-        printf("Length: %d", strlen($this->input));
+        printf('Length: %d' . PHP_EOL, strlen($this->input));
     }
 
     private function reactString(string $input): String
@@ -66,6 +83,13 @@ class Day05 implements IDay
             return false;
         }
         return strtoupper($l) === $r or strtolower($l) === $r;
+    }
+
+    public function removeLetterFromString(string $char, string $str): string
+    {
+        $chars = [$char, strtoupper($char)];
+        return str_replace($chars, '', $str);
+
     }
 }
 

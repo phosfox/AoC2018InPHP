@@ -20,4 +20,16 @@ class Day05Test extends PHPUnit_Framework_TestCase
         $this->assertTrue($d->canReact($s[1], $s[0]));
         $this->assertFalse($d->canReact($s[0], $s[2]));
     }
+
+    public function testRemoveLettersFromString()
+    {
+        $d = new Day05();
+        $chr = 'a';
+        $chr2 = 's';
+        $str = 'AAssssddddaa';
+
+        $this->assertSame('ssssdddd', $d->removeLetterFromString($chr, $str));
+        $this->assertSame('AAddddaa', $d->removeLetterFromString($chr2, $str));
+
+    }
 }

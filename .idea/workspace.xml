@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dff1a8e8-04ec-401b-b45f-a1d3672470aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day05Test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day05.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day05.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day05Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day05Test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +16,14 @@
     <session id="531702130">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -34,26 +34,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="9" />
+          <entry key="php" value="10" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="9" />
+          <entry key="PHP" value="10" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="8630" />
-          <entry key="txt" value="388" />
+          <entry key="php" value="9779" />
+          <entry key="txt" value="416" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="8630" />
-          <entry key="PLAIN_TEXT" value="388" />
+          <entry key="PHP" value="9779" />
+          <entry key="PLAIN_TEXT" value="416" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.test">
@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day04.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+            <state relative-caret-position="21">
+              <caret line="7" column="24" selection-start-line="7" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -82,8 +82,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day05.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="545">
+              <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+              <folding>
+                <element signature="n#reactString#0;n#Day05#0;n#!!top" />
+                <element signature="n#canReact#0;n#Day05#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day05Test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="546">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -206,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.Day05Test.testCanReact">
+  <component name="RunManager" selected="PHP Script.Day05.php">
     <configuration name="Day05Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Day05Test" file="$PROJECT_DIR$/Day05Test.php" scope="Class" />
       <method v="2" />
@@ -215,7 +219,8 @@
       <TestRunner class="Day05Test" file="$PROJECT_DIR$/Day05Test.php" method="testCanReact" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="Day03.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day03.php">
+    <configuration name="Day05Test.testRemoveLettersFromString" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Day05Test" file="$PROJECT_DIR$/Day05Test.php" method="testRemoveLettersFromString" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="Day04.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day04.php">
@@ -225,19 +230,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.Day03.php" />
       <item itemvalue="PHP Script.Day04.php" />
       <item itemvalue="PHP Script.Day05.php" />
       <item itemvalue="PHPUnit.Day05Test" />
       <item itemvalue="PHPUnit.Day05Test.testCanReact" />
+      <item itemvalue="PHPUnit.Day05Test.testRemoveLettersFromString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.Day05Test.testCanReact" />
         <item itemvalue="PHP Script.Day05.php" />
+        <item itemvalue="PHPUnit.Day05Test.testRemoveLettersFromString" />
+        <item itemvalue="PHPUnit.Day05Test.testCanReact" />
         <item itemvalue="PHPUnit.Day05Test" />
         <item itemvalue="PHP Script.Day04.php" />
-        <item itemvalue="PHP Script.Day03.php" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +265,8 @@
       <workItem from="1547652887453" duration="6453000" />
       <workItem from="1547665842259" duration="2976000" />
       <workItem from="1547730628057" duration="1724000" />
-      <workItem from="1548171136652" duration="8893000" />
+      <workItem from="1548171136652" duration="9320000" />
+      <workItem from="1548594448594" duration="2430000" />
     </task>
     <task id="LOCAL-00001" summary="Solved day2 part 1">
       <created>1547309930728</created>
@@ -360,43 +366,64 @@
       <option name="project" value="LOCAL" />
       <updated>1548173073627</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="trying stuff">
+      <created>1548183326133</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1548183326133</updated>
+    </task>
+    <task id="LOCAL-00016" summary="solved Part1">
+      <created>1548183668882</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1548183668882</updated>
+    </task>
+    <task id="LOCAL-00017" summary="typo">
+      <created>1548183700588</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1548183700588</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 25m 27s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 26m 27s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 27m 28s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 28m 02s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 27m 55s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 28m 48s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 33m 27s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 29m 07s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 33m 30s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 29m 42s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 52m 36s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 29m 52s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 52m 50s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 30m 00s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 53m 07s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 31m 20s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 53m 51s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 31m 45s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Day05Test_testCanReact - 2019.01.22 at 19h 54m 06s.xml">
-      <configuration name="Day05Test.testCanReact" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Day05Test_testRemoveLettersFromString - 2019.01.27 at 14h 38m 46s.xml">
+      <configuration name="Day05Test.testRemoveLettersFromString" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40763000" />
+    <option name="totallyTimeSpent" value="43620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +438,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" weight="0.09221748" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.09221748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.058635395" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,11 +452,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.5244029" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="right" id="Run" order="4" visible="true" weight="0.34861407" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49948078" visible="true" weight="0.09221748" />
@@ -471,10 +498,12 @@
     <MESSAGE value="trying to fill totals and minutes" />
     <MESSAGE value="guard is not getting filled with a value?" />
     <MESSAGE value="wtf is up with phps scope?" />
-    <MESSAGE value="solved Part1" />
     <MESSAGE value="solved Part2" />
     <MESSAGE value="starting day05 part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting day05 part1" />
+    <MESSAGE value="trying stuff" />
+    <MESSAGE value="solved Part1" />
+    <MESSAGE value="typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="typo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Inputs/Day1.txt">
@@ -547,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day04.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Inputs/Day5.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -563,15 +585,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day05Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="546">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day04.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="7" column="24" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day05.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="545">
+          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+          <folding>
+            <element signature="n#reactString#0;n#Day05#0;n#!!top" />
+            <element signature="n#canReact#0;n#Day05#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
