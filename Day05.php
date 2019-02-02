@@ -5,7 +5,7 @@
  * Date: 22.01.2019
  * Time: 16:33
  */
-require_once "IDay.php";
+require_once 'IDay.php';
 
 class Day05 implements IDay
 {
@@ -14,7 +14,7 @@ class Day05 implements IDay
 
     public function parseInput(): void
     {
-        $filename = "C:\Users\Constantin\PhpstormProjects\AdventOfCode2018\Inputs\Day5.txt";
+        $filename ='C:\Users\Constantin\PhpstormProjects\AdventOfCode2018\Inputs\Day5.txt';
         if ($fh = fopen($filename, 'rb')) {
             while (($line = fgets($fh)) !== false) {
                 $this->input = $line;
